@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engine":{
-    "node":"18"
+  "engine": {
+    "node": "18"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node dist/server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+    
   },
   "keywords": [],
   "author": "",
@@ -16,5 +17,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2"
   }
 }
